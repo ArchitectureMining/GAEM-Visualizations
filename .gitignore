@@ -1,0 +1,14 @@
+# ignore logs
+logs
+*.log
+npm-debug.log*
+
+# ignore dependencies
+node_modules/
+
+# ignore built files
+dist/
+
+# ignore editor or platform specific files
+# .vs/ # but since i use VS Code I'll just leave this
+**/.DS_Store
