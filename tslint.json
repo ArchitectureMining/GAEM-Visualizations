@@ -1,0 +1,23 @@
+{
+	"defaultSeverity": "error",
+	"extends": [
+		"tslint:recommended"
+	],
+	"jsRules": {},
+	"rules": {
+		"comment-format": [
+			true,
+			"check-lowercase",
+			"check-space",
+			{
+				"ignore-words": ["TODO"]
+			}
+		],
+		"indent": [
+			true,
+			"tabs"
+		],
+		"no-console": false
+	},
+	"rulesDirectory": []
+}
