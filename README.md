@@ -38,8 +38,8 @@ $ yarn run lint
 ```
 
 ## Project dependencies
-- Node.js
-- Express
+- [Node.js](https://nodejs.org/)
+- [Express](http://expressjs.com/)
 
 ## People
 *empty for now, communicating who wants/should be here*
