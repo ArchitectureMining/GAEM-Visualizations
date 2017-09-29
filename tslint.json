@@ -17,7 +17,16 @@
 			true,
 			"tabs"
 		],
-		"no-console": false
+		"interface-name": [
+			true,
+			"never-prefix"
+		],
+		"object-literal-sort-keys" : [
+			false
+		],
+		"trailing-comma": [
+			false
+		]
 	},
 	"rulesDirectory": []
 }
