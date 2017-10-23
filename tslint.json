@@ -21,9 +21,19 @@
 			true,
 			"never-prefix"
 		],
+		"max-line-lenght": [
+			true,
+			500
+		],
+		"no-console": [
+			false
+		],
+		"no-string-literal": false,
 		"object-literal-sort-keys" : [
 			false
 		],
+		"prefer-const": false,
+		"radix": false,
 		"trailing-comma": [
 			false
 		]
