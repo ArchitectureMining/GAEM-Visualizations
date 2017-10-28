@@ -6,7 +6,7 @@ import * as webpack from "webpack";
 const config: webpack.Configuration = {
 	target: "web",
 	externals: {
-		"neo4j-driver": "neo4j-driver",
+		"neo4j-driver": "neo4j",
 		"d3": "d3"
 	},
 	entry: "./src/app.ts",
