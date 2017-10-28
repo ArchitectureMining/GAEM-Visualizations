@@ -12,7 +12,7 @@ dataModel.getColumnData(
 	["053aad69a52634f446aa0a2fe92c8a3743716bdef437005f7f6ae7097a3c83af"]
 );*/
 
-let view = new FocusTestView();
-//let view = new FocusView();
+//let view = new FocusTestView();
+let view = new FocusView();
 
 view.render();
