@@ -22,13 +22,11 @@ const config: webpack.Configuration = {
 	},
 	output: {
 		filename: "./app.js",
+		library: "GAEMViews",
+		libraryTarget: "var",
 		path: path.resolve(__dirname, "dist")
 	},
 	plugins: [
-		/*new HtmlWebpackPlugin({
-			title: "GAEM Visualizations",
-			filename: "./index.html"
-		})*/
 		new CopyWebpackPlugin([
 			{
 				from: "./src/index.html"
@@ -48,14 +46,7 @@ const config: webpack.Configuration = {
 		modules: [
 			"./node_modules/"
 		]
-	},
-	/*node: {
-		fs: "empty",
-		dns: "empty",
-		net: "empty",
-		readline: "empty",
-		tls: "empty"
-	}*/
+	}
 };
 
 export default config;

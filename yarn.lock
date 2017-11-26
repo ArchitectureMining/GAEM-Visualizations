@@ -46,8 +46,8 @@
   resolved "https://registry.yarnpkg.com/@types/d3-dispatch/-/d3-dispatch-1.0.5.tgz#f1f9187b538ecb05157569d8dc2f70dfb04f1b52"
 
 "@types/d3-drag@*":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@types/d3-drag/-/d3-drag-1.1.0.tgz#9105e35ca58aa0c4783f3ce83082bcb24ccb6960"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/d3-drag/-/d3-drag-1.2.0.tgz#5ee6279432c894f85cb72fcda911a959bae11952"
   dependencies:
     "@types/d3-selection" "*"
 
@@ -60,16 +60,16 @@
   resolved "https://registry.yarnpkg.com/@types/d3-ease/-/d3-ease-1.0.7.tgz#93a301868be9e15061f3d44343b1ab3f8acb6f09"
 
 "@types/d3-force@*":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@types/d3-force/-/d3-force-1.0.7.tgz#8e3c533697143ebb70275d56840206e8ba789185"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@types/d3-force/-/d3-force-1.1.0.tgz#40925ca3512b63bd424f7c9685e1781b5b0a1d7e"
 
 "@types/d3-format@*":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@types/d3-format/-/d3-format-1.2.1.tgz#9435fb1771d2fbf6a858c93218f4097c9aa396c1"
 
 "@types/d3-geo@*":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@types/d3-geo/-/d3-geo-1.7.0.tgz#f2e250124203f99d1f56033cc9fd7d435c94b6d7"
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@types/d3-geo/-/d3-geo-1.9.2.tgz#ab1613f833e8fe1081a99c73e3e9de485fe649aa"
   dependencies:
     "@types/geojson" "*"
 
@@ -126,8 +126,8 @@
     "@types/d3-path" "*"
 
 "@types/d3-time-format@*":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@types/d3-time-format/-/d3-time-format-2.0.5.tgz#1d4c5ba77ed5352b10c7fce062c883382f1e16e0"
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/d3-time-format/-/d3-time-format-2.1.0.tgz#011e0fb7937be34a9a8f580ae1e2f2f1336a8a22"
 
 "@types/d3-time@*":
   version "1.0.7"
@@ -138,8 +138,8 @@
   resolved "https://registry.yarnpkg.com/@types/d3-timer/-/d3-timer-1.0.6.tgz#786d4e20731adf03af2c5df6c86fe29667fe429b"
 
 "@types/d3-transition@*":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@types/d3-transition/-/d3-transition-1.1.0.tgz#74475d4a8f8a0944a517d5ef861970cc30287e40"
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@types/d3-transition/-/d3-transition-1.1.1.tgz#c209fce6a966d6696356dd42b091a9c6cc79929f"
   dependencies:
     "@types/d3-selection" "*"
 
@@ -148,15 +148,15 @@
   resolved "https://registry.yarnpkg.com/@types/d3-voronoi/-/d3-voronoi-1.1.7.tgz#c0a145cf04395927e01706ff6c4ff835c97a8ece"
 
 "@types/d3-zoom@*":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@types/d3-zoom/-/d3-zoom-1.5.0.tgz#21f690b25a8419fd1bcc95ac629cefdfb462c70f"
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@types/d3-zoom/-/d3-zoom-1.7.0.tgz#1221bbf6434820f044c80b551c5519b817008961"
   dependencies:
     "@types/d3-interpolate" "*"
     "@types/d3-selection" "*"
 
-"@types/d3@^4.10.1":
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/@types/d3/-/d3-4.10.1.tgz#a888ac8780ac241d770b2025b3d7e379c4d417f0"
+"@types/d3@^4.11.0":
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/@types/d3/-/d3-4.11.0.tgz#1850b3b94a3bc42099b38200ceb7844479fa30d9"
   dependencies:
     "@types/d3-array" "*"
     "@types/d3-axis" "*"
@@ -190,8 +190,8 @@
     "@types/d3-zoom" "*"
 
 "@types/geojson@*":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-1.0.4.tgz#f6e011bf3f7eea616cce79b6f1a0722010822f3a"
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-1.0.5.tgz#ef9f12277233399c7f32086818a56a84c8952f8f"
 
 "@types/html-minifier@*":
   version "1.1.30"
@@ -412,7 +412,7 @@ babel-code-frame@^6.22.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-runtime@^6.18.0, babel-runtime@^6.23.0:
+babel-runtime@^6.18.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -452,8 +452,8 @@ bluebird@^2.10.2:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
 
 bluebird@^3.4.7:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
@@ -802,20 +802,9 @@ css-what@2.1:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-2.1.0.tgz#9467d032c38cfaefb9f2d79501253062f87fa1bd"
 
-cypher-tools@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/cypher-tools/-/cypher-tools-1.4.5.tgz#7b3eebff54a82c5907a787129330dea4ba8b5a14"
-  dependencies:
-    babel-runtime "^6.23.0"
-    lodash "^4.17.4"
-
-d3-array@1, d3-array@^1.2.0:
+d3-array@1, d3-array@1.2.1, d3-array@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.1.tgz#d1ca33de2f6ac31efadb8e050a021d7e2396d5dc"
-
-d3-array@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.0.tgz#147d269720e174c4057a7f42be8b0f3f2ba53108"
 
 d3-axis@1.0.8:
   version "1.0.8"
@@ -850,9 +839,9 @@ d3-dispatch@1, d3-dispatch@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/d3-dispatch/-/d3-dispatch-1.0.3.tgz#46e1491eaa9b58c358fce5be4e8bed626e7871f8"
 
-d3-drag@1, d3-drag@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/d3-drag/-/d3-drag-1.1.1.tgz#b5155304433b18ba38726b2184d0098e820dc64b"
+d3-drag@1, d3-drag@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/d3-drag/-/d3-drag-1.2.1.tgz#df8dd4c502fb490fc7462046a8ad98a5c479282d"
   dependencies:
     d3-dispatch "1"
     d3-selection "1"
@@ -869,9 +858,9 @@ d3-ease@1, d3-ease@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/d3-ease/-/d3-ease-1.0.3.tgz#68bfbc349338a380c44d8acc4fbc3304aa2d8c0e"
 
-d3-force@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/d3-force/-/d3-force-1.0.6.tgz#ea7e1b7730e2664cd314f594d6718c57cc132b79"
+d3-force@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/d3-force/-/d3-force-1.1.0.tgz#cebf3c694f1078fcc3d4daf8e567b2fbd70d4ea3"
   dependencies:
     d3-collection "1"
     d3-dispatch "1"
@@ -882,9 +871,9 @@ d3-format@1, d3-format@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-1.2.0.tgz#6b480baa886885d4651dc248a8f4ac9da16db07a"
 
-d3-geo@1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/d3-geo/-/d3-geo-1.6.4.tgz#f20e1e461cb1845f5a8be55ab6f876542a7e3199"
+d3-geo@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/d3-geo/-/d3-geo-1.8.1.tgz#50615c33454487e350db71059f84f71cda2dd983"
   dependencies:
     d3-array "1"
 
@@ -949,7 +938,13 @@ d3-shape@1.2.0:
   dependencies:
     d3-path "1"
 
-d3-time-format@2, d3-time-format@2.0.5:
+d3-time-format@2:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/d3-time-format/-/d3-time-format-2.1.0.tgz#a1d9540a1dc498817d44066b121b19a4a83e3531"
+  dependencies:
+    d3-time "1"
+
+d3-time-format@2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/d3-time-format/-/d3-time-format-2.0.5.tgz#9d7780204f7c9119c9170b1a56db4de9a8af972e"
   dependencies:
@@ -978,9 +973,9 @@ d3-voronoi@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/d3-voronoi/-/d3-voronoi-1.1.2.tgz#1687667e8f13a2d158c80c1480c5a29cb0d8973c"
 
-d3-zoom@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/d3-zoom/-/d3-zoom-1.5.0.tgz#8417de9a077f98f9ce83b1998efb8ee12b4db26e"
+d3-zoom@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/d3-zoom/-/d3-zoom-1.6.0.tgz#eb645b07fd0c37acc8b36b88476b781ed277b40e"
   dependencies:
     d3-dispatch "1"
     d3-drag "1"
@@ -988,23 +983,23 @@ d3-zoom@1.5.0:
     d3-selection "1"
     d3-transition "1"
 
-d3@^4.10.2:
-  version "4.10.2"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-4.10.2.tgz#d401b2bc0372a77e6822f278c0e4b4090206babd"
+d3@^4.11.0:
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-4.11.0.tgz#15ce99ec33e6941718cfd8fb826071b4fb7c48cb"
   dependencies:
-    d3-array "1.2.0"
+    d3-array "1.2.1"
     d3-axis "1.0.8"
     d3-brush "1.0.4"
     d3-chord "1.0.4"
     d3-collection "1.0.4"
     d3-color "1.0.3"
     d3-dispatch "1.0.3"
-    d3-drag "1.1.1"
+    d3-drag "1.2.1"
     d3-dsv "1.0.7"
     d3-ease "1.0.3"
-    d3-force "1.0.6"
+    d3-force "1.1.0"
     d3-format "1.2.0"
-    d3-geo "1.6.4"
+    d3-geo "1.8.1"
     d3-hierarchy "1.1.5"
     d3-interpolate "1.1.5"
     d3-path "1.0.5"
@@ -1021,7 +1016,7 @@ d3@^4.10.2:
     d3-timer "1.0.7"
     d3-transition "1.1.0"
     d3-voronoi "1.1.2"
-    d3-zoom "1.5.0"
+    d3-zoom "1.6.0"
 
 d@1:
   version "1.0.0"
@@ -1623,8 +1618,8 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.5.0.tgz#6d60e34b3abbc8313062c3b798ef8d901a07af3c"
 
 html-minifier@^3.2.3:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/html-minifier/-/html-minifier-3.5.5.tgz#3bdc9427e638bbe3dbde96c0eb988b044f02739e"
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/html-minifier/-/html-minifier-3.5.6.tgz#7e4e661a09999599c7d8e8a2b8d7fb7430bb5c3e"
   dependencies:
     camel-case "3.0.x"
     clean-css "4.1.x"
@@ -1980,7 +1975,7 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.14.0, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.3.0:
+lodash@^4.14.0, lodash@^4.17.3, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -2127,19 +2122,6 @@ neo4j-driver@^1.4.1:
   resolved "https://registry.yarnpkg.com/neo4j-driver/-/neo4j-driver-1.4.1.tgz#2196bb10565790357f9ab89b0836693de40ddb6c"
   dependencies:
     babel-runtime "^6.18.0"
-
-neo4j-parser@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/neo4j-parser/-/neo4j-parser-2.0.5.tgz#0ee1b6a6be008b6dc202b64b1ab6c261e78ba5ee"
-  dependencies:
-    babel-runtime "^6.23.0"
-    lodash "^4.17.4"
-
-neo4j-query-object@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/neo4j-query-object/-/neo4j-query-object-2.0.6.tgz#d57d50e94d0f8dc8f5fb26df8ffe57ce24fe4c68"
-  dependencies:
-    babel-runtime "^6.23.0"
 
 no-case@^2.2.0:
   version "2.3.2"
@@ -2736,16 +2718,6 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-simple-neo4j@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/simple-neo4j/-/simple-neo4j-4.3.1.tgz#d573e06a14515c4f1ece511599a2d4e6530ae5e5"
-  dependencies:
-    babel-runtime "^6.23.0"
-    cypher-tools "^1.4.5"
-    neo4j-parser "^2.0.5"
-    neo4j-query-object "^2.0.6"
-    request "^2.81.0"
-
 sntp@2.x.x:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/sntp/-/sntp-2.0.2.tgz#5064110f0af85f7cfdb7d6b67a40028ce52b4b2b"
@@ -2765,6 +2737,10 @@ source-map-support@^0.4.0:
 source-map@0.5.x, source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1, source-map@~0.5.3:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
+
+source-map@~0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
 spdx-correct@~1.0.0:
   version "1.0.2"
@@ -2960,8 +2936,8 @@ to-arraybuffer@^1.0.0:
   resolved "https://registry.yarnpkg.com/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
 
 toposort@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/toposort/-/toposort-1.0.3.tgz#f02cd8a74bd8be2fc0e98611c3bacb95a171869c"
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/toposort/-/toposort-1.0.6.tgz#c31748e55d210effc00fdcdc7d6e68d7d7bb9cec"
 
 tough-cookie@~2.3.2:
   version "2.3.2"
@@ -3044,11 +3020,11 @@ typescript@^2.5.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.2.tgz#038a95f7d9bbb420b1bf35ba31d4c5c1dd3ffe34"
 
 uglify-js@3.1.x:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.1.2.tgz#b50bcf15a5fd9e9ed40afbcdef3b59d6891b291f"
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.1.6.tgz#918832602036e95d2318e11f27ee8461a8592c5d"
   dependencies:
     commander "~2.11.0"
-    source-map "~0.5.1"
+    source-map "~0.6.1"
 
 uglify-js@^2.8.29:
   version "2.8.29"
