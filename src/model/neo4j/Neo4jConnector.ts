@@ -21,11 +21,11 @@ export class Neo4jConnector {
 			}
 
 			this.driver.onCompleted = () => {
-				console.log("INFO : Neo4j driver instantiated succesfully.");
+				console.log("INFO : Neo4j driver instantiated and connected succesfully.");
 			};
 
 			this.driver.onError = () => {
-				console.log("ERROR: Neo4j driver could not be instantiated.");
+				console.log("ERROR: Neo4j driver could not connect or be instantiated.");
 			};
 
 			this.session = this.driver.session();
@@ -35,7 +35,7 @@ export class Neo4jConnector {
 		this.session.close();
 		this.driver.close();
 
-		console.log("INFO : Neo4j server disconnected.");
+		console.log("INFO : Neo4j driver disconnected.");
 	}
 
 	public runQuery(query: string, parameters: object = { }) {

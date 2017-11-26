@@ -13,6 +13,7 @@
 				"ignore-words": ["TODO"]
 			}
 		],
+		"forin": false,
 		"indent": [
 			true,
 			"tabs"
@@ -21,8 +22,13 @@
 			true,
 			"never-prefix"
 		],
-		"max-line-lenght": [
-			true,
+		"max-classes-per-file":
+		[
+			false,
+			5
+		],
+		"max-line-length": [
+			false,
 			500
 		],
 		"no-console": [
