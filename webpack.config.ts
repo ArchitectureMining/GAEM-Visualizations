@@ -32,8 +32,18 @@ const config: webpack.Configuration = {
 				from: "./src/index.html"
 			},
 			{
-				from: "./src/lib/",
-				to: "./lib/"
+				from: "./src/FocusView.html"
+			},
+			{
+				from: "./src/TriView.html"
+			},
+			{
+				from: "./src/css/",
+				to: "./css/"
+			},
+			{
+				from: "./src/js/",
+				to: "./js/"
 			}
 		])
 	],
