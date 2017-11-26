@@ -1,5 +1,8 @@
 # GAEM-Visualizations
-A set of SVG software behavior visualizations generated with javascript for the GAEM thesis project.
+A set of SVG software behavior visualizations generated with javascript for the GAEM thesis project.\
+
+## Code quality
+This is a prototype for research purposes, it's not pretty, it not robust and it's not flexible. However it works well enough for the purpose for which it was intended.
 
 ## Requirements
 - [Node.js](https://nodejs.org/)
@@ -34,14 +37,11 @@ To start the server with all tools watching for file changes run:
 $ yarn run start-dev
 ```
 
-TSlint does not watch for file changes as is. Use a plugin or run the following commans manually whenever needed:
+TSlint does not watch for file changes as is. Use a plugin or run it manually yourself.
 
-```bash
-$ yarn run lint
-```
-
-## Project dependencies
-*none for now, will fill in later on*
+## Project core dependencies
+- [D3.js](https://d3js.org/)
+- [Neo4j JavaScript driver](https://github.com/neo4j/neo4j-javascript-driver)
 
 ## People
 *empty for now, communicating who wants/should be here*
